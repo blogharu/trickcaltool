@@ -5,7 +5,7 @@ import { supportedLngs, defaultLng } from "./langs";
 export { supportedLngs, defaultLng };
 
 import ko_KR from "./ko-KR.json";
-import zh_CN from "./zh-CN.json";
+// import zh_CN from "./zh-CN.json";
 
 i18n
   .use(LanguageDetector)
@@ -34,7 +34,7 @@ i18n
     },
     resources: {
       "ko-KR": ko_KR,
-      "zh-CN": zh_CN,
+      // "zh-CN": zh_CN,
     },
     detection: {
       order: ["localStorage", "navigator"],
